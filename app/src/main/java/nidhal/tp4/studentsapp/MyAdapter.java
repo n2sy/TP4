@@ -13,10 +13,10 @@ public class MyAdapter extends ArrayAdapter {
     Activity context;
     String[] items;
 
-    MyAdapter(Activity context, String[] items){
-        super(context,R.layout.one_element, items);
-        this.context = context;
-        this.items = items;
+    MyAdapter(Activity c, String[] a){
+        super(c,R.layout.one_element, a);
+        this.context = c;
+        this.items = a;
     }
 
     @Override

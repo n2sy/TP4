@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_green_light"
+    android:background="@drawable/background_gradient"
     tools:context=".MainActivity">
 
     <AutoCompleteTextView
@@ -16,15 +16,15 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="28dp"
         android:background="@android:color/darker_gray"
-        android:hint="Entrez le nom d'une matière" />
+        android:hint="Entrez le nom d'un étudiant" />
 
     <ListView
         android:id="@+id/notesLst"
         android:layout_width="368dp"
         android:layout_height="399dp"
         android:layout_centerHorizontal="true"
+        android:background="#4DFFFFFF"
         android:layout_marginTop="80dp"
-        android:layout_marginBottom="16dp"
-        android:background="@android:color/white" />
+        android:layout_marginBottom="16dp" />
 
 </RelativeLayout>
